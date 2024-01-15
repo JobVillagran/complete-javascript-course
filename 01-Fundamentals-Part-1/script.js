@@ -75,8 +75,19 @@ console.log(myFirstJob, myCurrentJob);*/
 
 /****** let, const and var ******/
 
+// Declare let when your variables are going to mutate (change),
+// and use const when you know the value of the variable.
+
 let age = 31;
 //Mutate the variable
 age = 21;
 
-console.log(age);
+const birthday = 1989;
+//const errorWillBe;
+
+// var is similar to let, but is an old way to declare before js ES6
+var job = 'Programmer';
+job = 'Musician';
+
+
+console.log(age, birthday, job);
