@@ -44,7 +44,7 @@ billTwo >= 50 && billTwo <= 300 ? (tipTwo = 0.15, console.log(`The bill was ${bi
 
 // PROPERLY SOLUTION
 
-const bill = 500;
+const bill = 275;
 let tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.20;
 
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
