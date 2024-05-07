@@ -19,6 +19,9 @@ const jonas = {
   friends: ['Michael', 'Peter', 'Steven'],
 };
 
+// The order of the properties are alphabetically
+console.log(jonas);
+
 /* We use objects to essentially group together different variables that really belong
 together such as properties of Jonas that we've been working with.
 
